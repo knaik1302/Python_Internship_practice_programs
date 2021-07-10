@@ -54,4 +54,6 @@ def CypherDycrypter(a):
 
 msg=input("Enter the Message").upper()
 Encrpyted_msg=CaesorEncrypter(msg)
+print(Encrpyted_msg)
 Decrypted_msg=CypherDycrypter(Encrpyted_msg)
+print(Decrypted_msg)
